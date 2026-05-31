@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 608" fill="none">
+  <rect width="1024" height="608" fill="#121820"/>
+  <text x="48" y="52" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#e8eef8">数据分析 · 传感器与运动轨迹</text>
+  <text x="48" y="84" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#7eb8e8">记录参数 · 对比响应 · 定位漂移与滞后</text>
+  <rect x="48" y="108" width="928" height="460" rx="6" stroke="#7eb8e8" stroke-width="1.5" fill="#0a0e14"/>
+  <rect x="72" y="132" width="400" height="220" stroke="#7eb8e8" stroke-width="1.2" fill="#121820"/>
+  <text x="92" y="164" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#e8eef8">采集项</text>
+  <text x="92" y="192" font-family="monospace" font-size="12" fill="#9aa8bc">IMU 姿态 / 角速度</text>
+  <text x="92" y="216" font-family="monospace" font-size="12" fill="#9aa8bc">编码器 · 轮速反馈</text>
+  <text x="92" y="240" font-family="monospace" font-size="12" fill="#9aa8bc">指令下发时间戳</text>
+  <text x="92" y="264" font-family="monospace" font-size="12" fill="#9aa8bc">实际轨迹 vs 期望轨迹</text>
+  <text x="92" y="288" font-family="monospace" font-size="12" fill="#9aa8bc">电机响应延迟</text>
+  <text x="92" y="320" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#dab25a">→ 表格 + 曲线对比找异常区间</text>
+  <rect x="500" y="132" width="452" height="220" stroke="#7eb8e8" stroke-width="1.2" fill="#121820"/>
+  <path d="M520 320 L580 280 L640 290 L700 240 L760 250 L820 200 L900 210" stroke="#7eb8e8" stroke-width="2" fill="none"/>
+  <path d="M520 320 L580 300 L640 310 L700 270 L760 280 L820 240 L900 250" stroke="#dab25a" stroke-width="1.5" stroke-dasharray="4 6" fill="none" opacity="0.8"/>
+  <text x="520" y="164" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#e8eef8">轨迹对比示意</text>
+  <text x="520" y="192" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#7eb8e8">实线：期望</text>
+  <text x="620" y="192" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#dab25a">虚线：实测（漂移段）</text>
+  <rect x="72" y="372" width="880" height="172" stroke="#7eb8e8" stroke-width="1.2" fill="#121820"/>
+  <text x="92" y="404" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="16" font-weight="700" fill="#e8eef8">典型问题与处理</text>
+  <text x="92" y="432" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#9aa8bc">传感器漂移 → 重新标定零点，增加滤波窗口</text>
+  <text x="92" y="460" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#9aa8bc">电机滞后 → 调整 PID / 预判补偿，分场景记录最优参数</text>
+  <text x="92" y="488" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#9aa8bc">异常指令响应 → 回溯日志，定位是感知误判还是控制饱和</text>
+</svg>

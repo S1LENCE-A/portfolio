@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" fill="none">
+  <rect width="640" height="400" fill="#f5f4f0"/>
+  <rect x="80" y="70" width="480" height="260" stroke="#141414" stroke-width="2" fill="#fff"/>
+  <path d="M110 110 H350 M110 140 H280 M110 170 H320" stroke="#e8e8e8" stroke-width="8" stroke-linecap="round"/>
+  <rect x="400" y="110" width="120" height="80" stroke="#d4a054" stroke-width="1.5" fill="none"/>
+  <path d="M420 200 L480 140 L520 180 L560 120" stroke="#3d8b8b" stroke-width="2" fill="none"/>
+  <text x="32" y="48" font-family="sans-serif" font-size="18" font-weight="700" fill="#141414">作品集网站</text>
+  <text x="32" y="76" font-family="sans-serif" font-size="13" fill="#5a5a5a">线稿风 · config 驱动 · 纸飞机交互</text>
+</svg>

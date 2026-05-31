@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 608" fill="none">
+  <rect width="1024" height="608" fill="#121820"/>
+  <rect x="48" y="108" width="928" height="460" rx="6" stroke="#7eb8e8" stroke-width="1.5" fill="#0a0e14"/>
+  <text x="48" y="52" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#e8eef8">第八届中国高校智能机器人创意大赛</text>
+  <text x="48" y="84" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#7eb8e8">全国二等奖 · 浙江省赛多项奖项 · 3 人团队</text>
+  <rect x="72" y="140" width="420" height="180" stroke="#7eb8e8" stroke-width="1.2" fill="#121820"/>
+  <text x="92" y="172" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" font-weight="700" fill="#e8eef8">赛事方向</text>
+  <text x="92" y="204" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#9aa8bc">轮式格斗 · 智能家居 · 创意竞技</text>
+  <text x="92" y="232" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#9aa8bc">感知 → 控制 → 决策 全链路参与</text>
+  <text x="92" y="260" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#9aa8bc">个人角色：数据分析 · 异常定位 · 协调调试</text>
+  <rect x="520" y="140" width="432" height="180" stroke="#7eb8e8" stroke-width="1.2" fill="#121820"/>
+  <text x="540" y="172" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" font-weight="700" fill="#dab25a">主要成果</text>
+  <text x="540" y="204" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#e8eef8">全国赛 二等奖</text>
+  <text x="540" y="232" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#e8eef8">浙江省赛 轮式格斗 / 智能家居 奖项</text>
+  <text x="540" y="260" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#9aa8bc">数据驱动优化传感器与电机参数</text>
+  <rect x="72" y="344" width="880" height="200" stroke="#7eb8e8" stroke-width="1.2" fill="#0a0e14"/>
+  <text x="92" y="376" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="18" font-weight="700" fill="#e8eef8">与岗位匹配</text>
+  <text x="92" y="408" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#9aa8bc">计算机基础 · 逻辑分析 · 跨模块协作 · 问题定位与复盘</text>
+  <text x="92" y="436" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#9aa8bc">在硬件约束下用数据记录与对比实验验证假设，而非凭感觉调参</text>
+  <text x="92" y="464" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#9aa8bc">竞赛周期内快速迭代，与队友分工明确、节奏可控</text>
+  <rect x="250" y="120" width="140" height="100" rx="8" stroke="#7eb8e8" stroke-width="1.5" fill="#121820" opacity="0.3"/>
+  <circle cx="290" cy="160" r="10" stroke="#7eb8e8" stroke-width="1.2"/>
+  <circle cx="350" cy="160" r="10" stroke="#7eb8e8" stroke-width="1.2"/>
+  <path d="M280 200 H360" stroke="#7eb8e8" stroke-width="1.2"/>
+</svg>

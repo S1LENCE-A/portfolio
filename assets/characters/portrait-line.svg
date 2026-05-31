@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300" fill="none" aria-hidden="true">
+  <!-- �}�?J�� -->
+  <rect x="8" y="8" width="224" height="284" rx="4" stroke="#111" stroke-width="2" stroke-dasharray="6 4" fill="#fff"/>
+  <ellipse cx="120" cy="248" rx="55" ry="8" stroke="#111" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M75 115 Q70 200 78 255 L162 255 Q170 195 165 115 Q145 95 120 92 Q95 95 75 115Z" stroke="#111" stroke-width="2" fill="none"/>
+  <path d="M88 120 L88 240 M152 120 L152 240" stroke="#111" stroke-width="1.2" opacity="0.35"/>
+  <path d="M95 175 L145 175 M95 210 L145 210" stroke="#111" stroke-width="1" opacity="0.25"/>
+  <ellipse cx="120" cy="118" rx="42" ry="46" stroke="#111" stroke-width="2.2" fill="#fff"/>
+  <path d="M82 112 Q88 78 120 74 Q152 78 158 112 Q140 98 120 96 Q100 98 82 112Z" stroke="#111" stroke-width="2" fill="none"/>
+  <path d="M98 108 Q110 102 120 104 Q130 102 142 108" stroke="#111" stroke-width="1.5" fill="none"/>
+  <ellipse cx="105" cy="118" rx="6" ry="8" stroke="#111" stroke-width="1.8" fill="#fff"/>
+  <ellipse cx="135" cy="118" rx="6" ry="8" stroke="#111" stroke-width="1.8" fill="#fff"/>
+  <circle cx="106" cy="119" r="2.5" fill="#111"/>
+  <circle cx="136" cy="119" r="2.5" fill="#111"/>
+  <path d="M112 132 Q120 136 128 132" stroke="#111" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M60 140 Q45 180 50 220" stroke="#111" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M180 140 Q195 180 190 220" stroke="#111" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <text x="168" y="42" font-size="11" fill="#111" font-family="sans-serif" opacity="0.5">sketch</text>
+</svg>

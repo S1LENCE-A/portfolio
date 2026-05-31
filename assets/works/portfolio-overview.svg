@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 608" fill="none">
+  <rect width="1024" height="608" fill="#f5f4f0"/>
+  <path d="M0 28 H1024 M0 56 H1024 M0 84 H1024" stroke="#e07a5f" stroke-opacity="0.08" stroke-width="1"/>
+  <path d="M28 0 V608 M56 0 V608 M84 0 V608" stroke="#e07a5f" stroke-opacity="0.08" stroke-width="1"/>
+  <text x="48" y="52" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#141414">求职作品集网站 · 总览</text>
+  <text x="48" y="84" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#5a5a5a">config.js 驱动 · 模块化渲染 · 面向面试官快速浏览</text>
+  <rect x="48" y="108" width="928" height="460" rx="6" stroke="#141414" stroke-width="2" fill="#fff"/>
+  <rect x="72" y="132" width="880" height="48" stroke="#141414" stroke-width="1.5" fill="#fafafa"/>
+  <text x="92" y="162" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="16" font-weight="600" fill="#141414">郑祥涛</text>
+  <text x="200" y="162" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#5a5a5a">关于 · 技能 · 经历 · 作品 · 联系</text>
+  <rect x="72" y="196" width="420" height="340" stroke="#141414" stroke-width="1.5" fill="#fff"/>
+  <text x="92" y="228" font-family="'PingFang SC','Microsoft YaHei',serif" font-size="20" font-weight="700" fill="#141414">Hero</text>
+  <text x="92" y="256" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#5a5a5a">2026届 · 全栈 / Agent 方向</text>
+  <rect x="92" y="276" width="120" height="32" rx="2" fill="#e07a5f" stroke="#141414" stroke-width="1"/>
+  <text x="108" y="297" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#fff">查看作品</text>
+  <rect x="92" y="330" width="380" height="8" rx="2" fill="#e8e8e8"/>
+  <rect x="92" y="350" width="320" height="8" rx="2" fill="#e8e8e8"/>
+  <rect x="92" y="370" width="360" height="8" rx="2" fill="#e8e8e8"/>
+  <rect x="512" y="196" width="440" height="160" stroke="#141414" stroke-width="1.5" fill="#fafafa"/>
+  <text x="532" y="228" font-family="'PingFang SC','Microsoft YaHei',serif" font-size="18" font-weight="700" fill="#141414">关于 · 技能</text>
+  <rect x="532" y="248" width="180" height="88" stroke="#3d8b8b" stroke-width="1.2" fill="#fff"/>
+  <rect x="728" y="248" width="200" height="88" stroke="#d4a054" stroke-width="1.2" fill="#fff"/>
+  <rect x="512" y="376" width="440" height="160" stroke="#141414" stroke-width="1.5" fill="#fafafa"/>
+  <text x="532" y="408" font-family="'PingFang SC','Microsoft YaHei',serif" font-size="18" font-weight="700" fill="#141414">作品 · 经历 · 联系</text>
+  <rect x="532" y="428" width="120" height="88" stroke="#141414" stroke-width="1" fill="#fff"/>
+  <rect x="668" y="428" width="120" height="88" stroke="#141414" stroke-width="1" fill="#fff"/>
+  <rect x="804" y="428" width="120" height="88" stroke="#141414" stroke-width="1" fill="#fff"/>
+  <text x="548" y="478" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#5a5a5a">旅迹</text>
+  <text x="684" y="478" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#5a5a5a">饮食智能体</text>
+  <text x="820" y="478" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#5a5a5a">竞赛 / 本站</text>
+</svg>

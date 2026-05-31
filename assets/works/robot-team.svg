@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 608" fill="none">
+  <rect width="1024" height="608" fill="#121820"/>
+  <text x="48" y="52" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#e8eef8">团队协作 · 3 人分工</text>
+  <text x="48" y="84" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#7eb8e8">队长协调 · 数据分析 · 嵌入式控制 · 赛前联调</text>
+  <rect x="48" y="108" width="928" height="460" rx="6" stroke="#7eb8e8" stroke-width="1.5" fill="#0a0e14"/>
+  <rect x="120" y="150" width="240" height="180" stroke="#7eb8e8" stroke-width="1.2" fill="#121820"/>
+  <circle cx="240" cy="200" r="32" stroke="#7eb8e8" stroke-width="1.5" fill="#0a0e14"/>
+  <text x="240" y="206" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#e8eef8">队长</text>
+  <text x="140" y="260" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#9aa8bc">整体策略 · 赛程协调</text>
+  <text x="140" y="284" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#9aa8bc">模块优先级 · 联调节奏</text>
+  <rect x="392" y="150" width="240" height="180" stroke="#dab25a" stroke-width="1.5" fill="#121820"/>
+  <circle cx="512" cy="200" r="32" stroke="#dab25a" stroke-width="1.5" fill="#0a0e14"/>
+  <text x="512" y="206" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#dab25a">我</text>
+  <text x="412" y="260" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#9aa8bc">数据记录 · 异常分析</text>
+  <text x="412" y="284" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#9aa8bc">参数对比 · 调试建议</text>
+  <rect x="664" y="150" width="240" height="180" stroke="#7eb8e8" stroke-width="1.2" fill="#121820"/>
+  <circle cx="784" cy="200" r="32" stroke="#7eb8e8" stroke-width="1.5" fill="#0a0e14"/>
+  <text x="784" y="206" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#e8eef8">队员</text>
+  <text x="684" y="260" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#9aa8bc">嵌入式 · 驱动</text>
+  <text x="684" y="284" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#9aa8bc">硬件接线 · 底层调试</text>
+  <rect x="120" y="360" width="784" height="180" stroke="#7eb8e8" stroke-width="1.2" fill="#121820"/>
+  <text x="140" y="392" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="16" font-weight="700" fill="#e8eef8">协作方式</text>
+  <text x="140" y="420" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#9aa8bc">每日短同步：昨日结论 · 今日目标 · 阻塞项</text>
+  <text x="140" y="448" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#9aa8bc">数据结论书面化，避免口头信息丢失</text>
+  <text x="140" y="476" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#9aa8bc">赛前 checklist：电量 · 传感器 · 参数 · 备用方案</text>
+  <path d="M360 240 Q512 280 664 240" stroke="#7eb8e8" stroke-width="1" stroke-dasharray="4 6" fill="none" opacity="0.6"/>
+</svg>

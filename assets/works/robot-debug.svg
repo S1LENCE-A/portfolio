@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 608" fill="none">
+  <rect width="1024" height="608" fill="#121820"/>
+  <text x="48" y="52" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#e8eef8">调试流程 · 感知 · 控制 · 决策</text>
+  <text x="48" y="84" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#7eb8e8">分模块验证 · 日志对照 · 迭代闭环</text>
+  <rect x="48" y="108" width="928" height="460" rx="6" stroke="#7eb8e8" stroke-width="1.5" fill="#0a0e14"/>
+  <rect x="120" y="160" width="160" height="100" rx="4" stroke="#7eb8e8" stroke-width="1.5" fill="#121820"/>
+  <text x="148" y="200" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#e8eef8">感知层</text>
+  <text x="132" y="228" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#9aa8bc">传感器读数</text>
+  <path d="M280 210 H360" stroke="#7eb8e8" stroke-width="2"/>
+  <polygon points="360,210 350,205 350,215" fill="#7eb8e8"/>
+  <rect x="360" y="160" width="160" height="100" rx="4" stroke="#7eb8e8" stroke-width="1.5" fill="#121820"/>
+  <text x="388" y="200" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#e8eef8">控制层</text>
+  <text x="372" y="228" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#9aa8bc">电机 / 舵机</text>
+  <path d="M520 210 H600" stroke="#7eb8e8" stroke-width="2"/>
+  <polygon points="600,210 590,205 590,215" fill="#7eb8e8"/>
+  <rect x="600" y="160" width="160" height="100" rx="4" stroke="#7eb8e8" stroke-width="1.5" fill="#121820"/>
+  <text x="628" y="200" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#e8eef8">决策层</text>
+  <text x="612" y="228" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#9aa8bc">策略 / 状态机</text>
+  <path d="M760 210 H840" stroke="#7eb8e8" stroke-width="2"/>
+  <polygon points="840,210 830,205 830,215" fill="#7eb8e8"/>
+  <rect x="760" y="160" width="160" height="100" rx="4" stroke="#dab25a" stroke-width="1.5" fill="#121820"/>
+  <text x="800" y="200" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#dab25a">输出</text>
+  <text x="772" y="228" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#9aa8bc">场上动作结果</text>
+  <rect x="120" y="300" width="784" height="240" stroke="#7eb8e8" stroke-width="1.2" fill="#121820"/>
+  <text x="140" y="332" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="16" font-weight="700" fill="#e8eef8">单次调试循环</text>
+  <text x="140" y="364" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#9aa8bc">1. 设定测试场景（直线 / 转弯 / 对抗）</text>
+  <text x="140" y="392" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#9aa8bc">2. 同步记录传感器、指令、轨迹三类数据</text>
+  <text x="140" y="420" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#9aa8bc">3. 对比期望与实际，标记异常时间段</text>
+  <text x="140" y="448" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#9aa8bc">4. 与队友讨论假设 → 改参数 → 复测验证</text>
+  <text x="140" y="476" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#7eb8e8">5. 固化有效参数，写入赛前检查清单</text>
+</svg>

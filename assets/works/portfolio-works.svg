@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 608" fill="none">
+  <rect width="1024" height="608" fill="#f5f4f0"/>
+  <text x="48" y="52" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#141414">作品展示 · 灯箱系统</text>
+  <text x="48" y="84" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#5a5a5a">分类筛选 · 搜索 · 项目主题色 · 多图轮播 · 启动页动效</text>
+  <rect x="48" y="108" width="928" height="460" rx="6" stroke="#141414" stroke-width="2" fill="#fff"/>
+  <rect x="72" y="132" width="880" height="36" stroke="#141414" stroke-width="1" fill="#fafafa"/>
+  <text x="92" y="156" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#5a5a5a">全部 · Agent / AI · 全栈 · 竞赛</text>
+  <rect x="72" y="184" width="200" height="160" stroke="#141414" stroke-width="1.5" fill="#050508"/>
+  <text x="88" y="320" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#dab25a">旅迹 · 深空主题</text>
+  <rect x="292" y="184" width="200" height="160" stroke="#141414" stroke-width="1.5" fill="#e8f5ec"/>
+  <text x="308" y="320" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#3d7a4f">饮食智能体 · 浅绿主题</text>
+  <rect x="512" y="184" width="200" height="160" stroke="#141414" stroke-width="1.5" fill="#121820"/>
+  <text x="528" y="320" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#7eb8e8">机器人竞赛 · 深蓝主题</text>
+  <rect x="732" y="184" width="200" height="160" stroke="#141414" stroke-width="1.5" fill="#f5f4f0"/>
+  <text x="748" y="320" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#141414">本站 · 纸色主题</text>
+  <rect x="200" y="360" width="624" height="180" stroke="#141414" stroke-width="2" fill="#050508"/>
+  <rect x="520" y="380" width="280" height="140" fill="#fff"/>
+  <text x="540" y="412" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="16" font-weight="700" fill="#141414">灯箱 · 多图展示</text>
+  <text x="540" y="440" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#5a5a5a">等比缩放 · 项目背景色统一</text>
+  <text x="540" y="464" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#5a5a5a">第 1 张启动页动效（星空 / 粒子）</text>
+  <text x="540" y="488" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#5a5a5a">← → 切换 · 键盘导航</text>
+  <circle cx="380" cy="450" r="48" stroke="#dab25a" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M380 410 L395 450 L380 440 L365 450 Z" fill="#fff" stroke="#141414" stroke-width="1"/>
+</svg>

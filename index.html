@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="郑祥涛 · 2026届人工智能 · 全栈/Agent 方向求职作品集" />
+  <meta name="theme-color" content="#fafafa" />
+  <title>郑祥涛 · 全栈 / Agent 作品集</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=20260608" />
+</head>
+<body>
+  <div class="site-splash" id="site-splash" aria-hidden="true" hidden>
+    <div class="site-splash__backdrop" aria-hidden="true"></div>
+    <div class="site-splash__frame" aria-hidden="true">
+      <span class="site-splash__corner site-splash__corner--tl"></span>
+      <span class="site-splash__corner site-splash__corner--tr"></span>
+      <span class="site-splash__corner site-splash__corner--bl"></span>
+      <span class="site-splash__corner site-splash__corner--br"></span>
+    </div>
+    <svg class="site-splash__route" viewBox="0 0 960 540" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <defs>
+        <linearGradient id="splash-route-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="var(--accent)" stop-opacity="0" />
+          <stop offset="40%" stop-color="var(--accent)" stop-opacity="0.35" />
+          <stop offset="100%" stop-color="var(--accent2)" stop-opacity="0.7" />
+        </linearGradient>
+      </defs>
+      <path class="site-splash__route-path" d="M -20 420 C 120 380, 220 300, 320 260 S 520 180, 640 140 S 820 80, 980 40" />
+    </svg>
+    <div class="site-splash__plane-wrap" aria-hidden="true">
+      <div class="site-splash__plane">
+        <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M22 5 L38 34 L22 28 L6 34 Z" stroke="currentColor" stroke-width="1.55" stroke-linejoin="round" fill="var(--paper)" />
+          <path d="M22 5 L22 28" stroke="currentColor" stroke-width="1.05" stroke-linecap="round" />
+          <path d="M22 28 L30 34" stroke="var(--accent)" stroke-width="1.35" stroke-linecap="round" />
+          <circle cx="22" cy="8" r="1.6" fill="var(--accent)" />
+        </svg>
+      </div>
+    </div>
+    <div class="site-splash__orbit" aria-hidden="true">
+      <span class="site-splash__orbit-ring site-splash__orbit-ring--1"></span>
+      <span class="site-splash__orbit-ring site-splash__orbit-ring--2"></span>
+      <span class="site-splash__orbit-dot"></span>
+    </div>
+    <div class="site-splash__panel">
+      <p class="site-splash__eyebrow" id="splash-eyebrow"></p>
+      <div class="site-splash__welcome" id="splash-welcome" role="heading" aria-level="1">
+        <span class="site-splash__welcome-row site-splash__welcome-row--1" id="splash-welcome-line1"></span>
+        <span class="site-splash__welcome-row site-splash__welcome-row--2" id="splash-welcome-line2"></span>
+      </div>
+      <svg class="site-splash__scribble" viewBox="0 0 200 24" aria-hidden="true">
+        <path d="M4 16 Q50 4 100 14 T196 8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <p class="site-splash__subtitle" id="splash-subtitle"></p>
+      <ul class="site-splash__hints" id="splash-hints"></ul>
+      <div class="site-splash__progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="splash-progress">
+        <span class="site-splash__progress-track"></span>
+        <span class="site-splash__progress-bar" id="splash-progress-bar"></span>
+        <span class="site-splash__progress-label" id="splash-progress-label">INIT</span>
+      </div>
+      <button type="button" class="btn btn--fill site-splash__enter" id="splash-enter" disabled>进入站点</button>
+    </div>
+    <p class="site-splash__hint" id="splash-hint" aria-hidden="true"></p>
+    <div class="site-splash__veil" aria-hidden="true"></div>
+  </div>
+
+  <svg class="pc-route" id="pc-route" aria-hidden="true">
+    <defs>
+      <linearGradient id="pc-route-grad" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="currentColor" stop-opacity="0" />
+        <stop offset="72%" stop-color="currentColor" stop-opacity="0.22" />
+        <stop offset="100%" stop-color="currentColor" stop-opacity="0.62" />
+      </linearGradient>
+    </defs>
+    <path id="pc-route-path" fill="none" stroke="url(#pc-route-grad)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 8" />
+  </svg>
+  <div class="pc-scraps" id="pc-scraps" aria-hidden="true"></div>
+  <div class="pc-root" id="pc-root" aria-hidden="true" data-state="">
+    <div class="pc-reticle" id="pc-reticle" aria-hidden="true">
+      <span class="pc-reticle-corner pc-reticle-corner--tl"></span>
+      <span class="pc-reticle-corner pc-reticle-corner--tr"></span>
+      <span class="pc-reticle-corner pc-reticle-corner--bl"></span>
+      <span class="pc-reticle-corner pc-reticle-corner--br"></span>
+    </div>
+    <div class="pc-plane" id="pc-plane">
+      <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path class="pc-plane-body" d="M22 5 L38 34 L22 28 L6 34 Z" stroke="currentColor" stroke-width="1.55" stroke-linejoin="round" fill="var(--paper)" />
+        <path d="M22 5 L22 28" stroke="currentColor" stroke-width="1.05" stroke-linecap="round" />
+        <path d="M12 26 L22 28 L32 26" stroke="currentColor" stroke-width="0.85" stroke-linecap="round" opacity="0.5" />
+        <path d="M22 28 L30 34" stroke="var(--accent)" stroke-width="1.35" stroke-linecap="round" />
+        <path d="M15 19 L22 23 L29 19" stroke="color-mix(in srgb, var(--ink) 28%, transparent)" stroke-width="0.75" stroke-linecap="round" />
+        <circle class="pc-plane-nose" cx="22" cy="8" r="1.6" fill="var(--accent)" />
+      </svg>
+    </div>
+    <div class="pc-hint" id="pc-hint" aria-hidden="true">
+      <span class="pc-hint-icon" id="pc-hint-icon" aria-hidden="true"></span>
+      <span class="pc-hint-text" id="pc-hint-text"></span>
+    </div>
+  </div>
+
+  <div class="site-page" id="site-page">
+  <div class="read-progress" id="read-progress" aria-hidden="true">
+    <span class="read-progress-glow"></span>
+  </div>
+
+  <div class="canvas-deco" id="canvas-deco" aria-hidden="true">
+    <svg class="deco-shape deco-shape--1" viewBox="0 0 80 80"><circle cx="40" cy="40" r="36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 6"/></svg>
+    <svg class="deco-shape deco-shape--2" viewBox="0 0 60 60"><path d="M30 4 L56 30 L30 56 L4 30Z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+    <svg class="deco-shape deco-shape--3" viewBox="0 0 48 48"><path d="M8 24 H40 M24 8 V40" stroke="currentColor" stroke-width="1.5"/></svg>
+    <span class="deco-blob deco-blob--1"></span>
+    <span class="deco-blob deco-blob--2"></span>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <div class="header-lead">
+        <button type="button" class="splash-return" id="btn-splash-return" aria-label="返回启动页" hidden>
+          <svg viewBox="0 0 44 44" fill="none" aria-hidden="true">
+            <path d="M22 5 L38 34 L22 28 L6 34 Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" fill="none"/>
+            <path d="M22 28 L30 34" stroke="var(--accent)" stroke-width="1.3" stroke-linecap="round"/>
+          </svg>
+          <span class="splash-return__label" id="splash-return-label">启动页</span>
+        </button>
+      </div>
+      <nav class="nav" id="nav-links" aria-label="页面章节"></nav>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main" id="top">
+    <section class="hero section" id="hero" data-section>
+      <div class="hero-bg-deco" aria-hidden="true">
+        <span class="hero-bg-deco__stamp">PORTFOLIO · 2026</span>
+        <svg class="hero-bg-deco__arc" viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="5 7"/></svg>
+      </div>
+      <div class="hero-layout">
+        <div class="hero-body">
+          <div class="hero-main">
+            <header class="hero-header reveal">
+              <p class="hero-eyebrow" id="profile-role">Role</p>
+              <h1 id="profile-name">Name</h1>
+              <p class="hero-headline" id="profile-headline">—</p>
+              <div class="hero-header__meta">
+                <p class="hero-availability" id="hero-availability" hidden></p>
+                <div class="hero-pills" id="hero-pills"></div>
+              </div>
+            </header>
+
+            <div class="hero-primary reveal">
+              <ul class="hero-highlights" id="hero-highlights" hidden></ul>
+              <div class="hero-stats" id="hero-stats" hidden></div>
+              <div class="hero-stack" id="hero-stack" hidden></div>
+              <ul class="hero-focus" id="hero-focus" hidden></ul>
+              <div class="hero-actions">
+                <a class="btn btn--fill" href="#works">查看作品</a>
+                <a class="btn btn--ghost" href="#contact">联系我</a>
+                <a class="btn btn--ghost" id="btn-resume" href="#" download hidden>下载简历</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-bridge reveal" aria-hidden="true">
+            <div class="hero-bridge__inner">
+              <svg class="hero-bridge__plane" viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>
+              <div class="hero-bridge__line"></div>
+              <div class="hero-bridge__pin">
+                <span>杭州</span>
+                <span>2026</span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero-profile reveal reveal--delay">
+            <div class="hero-profile__card">
+              <div class="hero-profile__photo">
+                <div class="hero-profile__photo-inner" id="portrait" role="img" aria-label="个人照片"></div>
+              </div>
+              <div class="hero-profile__body">
+                <p class="hero-profile__label" id="hero-intro-label">絮语</p>
+                <p class="hero-profile__text" id="hero-intro"></p>
+              </div>
+              <div class="hero-profile__foot" id="hero-profile-foot" hidden></div>
+            </div>
+          </aside>
+        </div>
+
+        <div class="hero-strip reveal">
+          <div class="hero-strip__dots" aria-hidden="true"><span></span><span></span><span></span></div>
+          <p class="hero-scroll-hint" aria-hidden="true"><span>向下探索</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" data-section>
+      <div class="section-head reveal">
+        <span class="section-num">01</span>
+        <h2 id="about-title">关于</h2>
+      </div>
+      <div class="line-box reveal">
+        <p class="about-text" id="about-text"></p>
+        <div class="about-extras" id="about-extras" hidden>
+          <div class="about-highlights" id="about-highlights"></div>
+        </div>
+        <button type="button" class="about-toggle" id="about-toggle" hidden>展开全文</button>
+      </div>
+    </section>
+
+    <section class="section" id="skills" data-section>
+      <div class="section-head reveal">
+        <span class="section-num">02</span>
+        <h2>技能</h2>
+        <p class="section-sub" id="skills-sub">SKILLS</p>
+      </div>
+      <div class="skills-toolbar reveal" id="skills-toolbar" hidden>
+        <div class="skills-filter" id="skills-filter" role="tablist" aria-label="技能分类"></div>
+        <p class="skills-summary" id="skills-summary"></p>
+      </div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </section>
+
+    <section class="section" id="experience" data-section>
+      <div class="section-head reveal">
+        <span class="section-num">03</span>
+        <h2>经历</h2>
+        <p class="section-sub" id="experience-sub">EXPERIENCE</p>
+      </div>
+      <div class="timeline-wrap">
+        <div class="timeline-line" aria-hidden="true"></div>
+        <div class="timeline" id="timeline"></div>
+      </div>
+    </section>
+
+    <section class="section section--works" id="works" data-section>
+      <div class="section-head section-head--split reveal">
+        <div>
+          <span class="section-num">04</span>
+          <h2 id="works-section-title">作品</h2>
+          <p class="section-sub" id="works-section-sub">WORKS</p>
+        </div>
+        <div class="view-toggle" id="view-toggle" role="group" aria-label="作品视图">
+          <button type="button" class="view-btn is-active" data-view="grid" aria-pressed="true">网格</button>
+          <button type="button" class="view-btn" data-view="list" aria-pressed="false">列表</button>
+        </div>
+      </div>
+      <div class="works-toolbar reveal">
+        <label class="works-search-wrap">
+          <span class="sr-only">搜索作品</span>
+          <input type="search" class="works-search" id="works-search" placeholder="搜索作品标题或标签…" autocomplete="off" />
+        </label>
+        <p class="works-meta" id="works-meta" aria-live="polite"></p>
+      </div>
+      <div class="filter-bar" id="works-filter" role="tablist"></div>
+      <div class="works-grid" id="works-grid" data-view-mode="grid"></div>
+      <p class="empty-hint" id="works-empty" hidden>在 config.js 的 works.items 中添加作品</p>
+    </section>
+
+    <section class="section" id="contact" data-section>
+      <div class="section-head reveal">
+        <span class="section-num">05</span>
+        <h2 id="contact-title">联系</h2>
+      </div>
+      <div class="contact-panel reveal">
+        <p class="contact-note" id="contact-note"></p>
+        <ul class="contact-details" id="contact-details"></ul>
+        <div class="contact-status" id="contact-status" hidden></div>
+        <div class="contact-actions" id="contact-actions"></div>
+        <div class="link-row" id="link-row"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p id="site-footer">©</p>
+  </footer>
+
+  <button type="button" class="back-top" id="back-top" aria-label="回到顶部" hidden>↑</button>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <div class="lightbox" id="lightbox" hidden aria-hidden="true">
+    <div class="lightbox-backdrop" data-close></div>
+    <div class="lightbox-panel" role="dialog" aria-modal="true" aria-labelledby="lb-title">
+      <button type="button" class="lb-close" data-close aria-label="关闭">×</button>
+      <div class="lb-layout">
+        <div class="lb-visual" id="lb-visual">
+          <div class="lb-splash-fx" id="lb-splash-fx" hidden aria-hidden="true" data-theme="">
+            <div class="lb-splash-travel" id="lb-splash-travel" hidden aria-hidden="true">
+              <canvas class="lb-starfield" id="lb-starfield"></canvas>
+              <div class="lb-splash-bg lb-splash-bg--travel" aria-hidden="true"></div>
+              <div class="lb-orbit-wrap" aria-hidden="true">
+                <div class="lb-orbit"><span class="lb-orbit-sat"></span></div>
+                <div class="lb-orbit lb-orbit--2"><span class="lb-orbit-sat"></span></div>
+                <div class="lb-orbit lb-orbit--3"><span class="lb-orbit-sat"></span></div>
+                <div class="lb-orbit lb-orbit--4"><span class="lb-orbit-sat"></span></div>
+                <div class="lb-orbit-core"></div>
+              </div>
+            </div>
+            <div class="lb-splash-diet" id="lb-splash-diet" hidden aria-hidden="true">
+              <canvas class="lb-diet-particles" id="lb-diet-particles"></canvas>
+              <div class="lb-splash-bg lb-splash-bg--diet" aria-hidden="true"></div>
+              <div class="lb-diet-floats" aria-hidden="true">
+                <span class="lb-diet-float lb-diet-float--1">🥗</span>
+                <span class="lb-diet-float lb-diet-float--2">🍵</span>
+                <span class="lb-diet-float lb-diet-float--3">🥑</span>
+                <span class="lb-diet-float lb-diet-float--4">🥦</span>
+              </div>
+            </div>
+          </div>
+          <div class="lb-stage">
+            <div class="lb-frame">
+              <div class="lb-frame-inner" id="lb-frame-inner">
+                <img id="lb-image" src="" alt="" />
+              </div>
+            </div>
+            <button type="button" class="lb-nav lb-prev" id="lb-prev" aria-label="上一张">‹</button>
+            <button type="button" class="lb-nav lb-next" id="lb-next" aria-label="下一张">›</button>
+            <div class="lb-dots" id="lb-dots"></div>
+          </div>
+        </div>
+        <div class="lb-info">
+          <p class="lb-meta" id="lb-meta"></p>
+          <p class="lb-counter" id="lb-counter" hidden></p>
+          <h3 id="lb-title"></h3>
+          <div class="lb-tags" id="lb-tags"></div>
+          <p class="lb-desc" id="lb-desc"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/config.js?v=20260607"></script>
+  <script src="js/splash.js?v=20260524"></script>
+  <script src="js/characters.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/sections.js"></script>
+  <script src="js/works.js?v=20260522b"></script>
+  <script src="js/ui.js"></script>
+</body>
+</html>

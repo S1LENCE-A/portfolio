@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 608" fill="none">
+  <rect width="1024" height="608" fill="#f5f4f0"/>
+  <text x="48" y="52" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#141414">工程结构 · config.js 驱动</text>
+  <text x="48" y="84" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#5a5a5a">内容与样式分离 · 零构建依赖 · 纯静态部署</text>
+  <rect x="48" y="108" width="928" height="460" rx="6" stroke="#141414" stroke-width="2" fill="#fff"/>
+  <rect x="72" y="140" width="260" height="400" stroke="#141414" stroke-width="1.5" fill="#fafafa"/>
+  <text x="92" y="172" font-family="monospace" font-size="14" font-weight="700" fill="#e07a5f">config.js</text>
+  <text x="92" y="200" font-family="monospace" font-size="12" fill="#5a5a5a">profile</text>
+  <text x="92" y="224" font-family="monospace" font-size="12" fill="#5a5a5a">about / skills</text>
+  <text x="92" y="248" font-family="monospace" font-size="12" fill="#5a5a5a">experience</text>
+  <text x="92" y="272" font-family="monospace" font-size="12" fill="#5a5a5a">works.items[]</text>
+  <text x="92" y="296" font-family="monospace" font-size="12" fill="#5a5a5a">contact / links</text>
+  <text x="92" y="320" font-family="monospace" font-size="12" fill="#5a5a5a">theme</text>
+  <path d="M332 220 H420" stroke="#3d8b8b" stroke-width="2" marker-end="url(#arr)"/>
+  <path d="M332 280 H420" stroke="#3d8b8b" stroke-width="2"/>
+  <path d="M332 340 H420" stroke="#3d8b8b" stroke-width="2"/>
+  <path d="M332 400 H420" stroke="#3d8b8b" stroke-width="2"/>
+  <rect x="420" y="140" width="520" height="88" stroke="#141414" stroke-width="1.5" fill="#fff"/>
+  <text x="440" y="172" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#141414">main.js</text>
+  <text x="440" y="196" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#5a5a5a">导航 · Hero · 联系 · 简历下载</text>
+  <rect x="420" y="248" width="250" height="88" stroke="#141414" stroke-width="1.5" fill="#fff"/>
+  <text x="440" y="280" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#141414">sections.js</text>
+  <text x="440" y="304" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#5a5a5a">技能筛选 · 关于展开</text>
+  <rect x="690" y="248" width="250" height="88" stroke="#141414" stroke-width="1.5" fill="#fff"/>
+  <text x="710" y="280" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#141414">works.js</text>
+  <text x="710" y="304" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#5a5a5a">作品网格 · 灯箱 · 主题</text>
+  <rect x="420" y="356" width="250" height="88" stroke="#141414" stroke-width="1.5" fill="#fff"/>
+  <text x="440" y="388" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#141414">ui.js</text>
+  <text x="440" y="412" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#5a5a5a">光标 · 滚动 · Toast</text>
+  <rect x="690" y="356" width="250" height="88" stroke="#141414" stroke-width="1.5" fill="#fff"/>
+  <text x="710" y="388" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#141414">style.css</text>
+  <text x="710" y="412" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#5a5a5a">线稿风 · 响应式</text>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#3d8b8b"/>
+    </marker>
+  </defs>
+</svg>

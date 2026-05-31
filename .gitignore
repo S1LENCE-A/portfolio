@@ -1,0 +1,18 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs & env（勿把密钥提交进仓库）
+*.log
+.env
+.env.*
+
+# 本地预览缓存（若有）
+.cache/

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 608" fill="none">
+  <rect width="1024" height="608" fill="#f5f4f0"/>
+  <text x="48" y="52" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#141414">交互设计 · 纸飞机光标</text>
+  <text x="48" y="84" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#5a5a5a">自定义光标 · 航迹拖尾 · 情境准星 · 章节滚动高亮</text>
+  <rect x="48" y="108" width="928" height="460" rx="6" stroke="#141414" stroke-width="2" fill="#fff"/>
+  <path d="M120 480 Q280 420 420 360 T720 280" stroke="#e07a5f" stroke-width="1.4" stroke-dasharray="6 10" opacity="0.55"/>
+  <path d="M720 280 L760 260 L740 300 Z" fill="#141414" opacity="0.85"/>
+  <circle cx="720" cy="280" r="28" stroke="#3d8b8b" stroke-width="1.2" fill="none" stroke-dasharray="4 6" opacity="0.5"/>
+  <rect x="780" y="240" width="72" height="28" rx="2" stroke="#141414" stroke-width="1" fill="#fff"/>
+  <text x="792" y="259" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#141414">预览</text>
+  <rect x="120" y="140" width="320" height="200" stroke="#141414" stroke-width="1.5" fill="#fafafa"/>
+  <text x="140" y="172" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="16" font-weight="700" fill="#141414">光标状态机</text>
+  <text x="140" y="200" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#5a5a5a">默认 → 快速移动 → 停驻悬浮</text>
+  <text x="140" y="228" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#3d8b8b">链接 · 前往</text>
+  <text x="140" y="256" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#e07a5f">按钮 · 点击</text>
+  <text x="140" y="284" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#d4a054">作品 · 预览</text>
+  <rect x="480" y="140" width="440" height="200" stroke="#141414" stroke-width="1.5" fill="#fafafa"/>
+  <text x="500" y="172" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="16" font-weight="700" fill="#141414">章节体验</text>
+  <rect x="500" y="188" width="400" height="6" rx="1" fill="#e8e8e8"/>
+  <rect x="500" y="188" width="240" height="6" rx="1" fill="#e07a5f"/>
+  <text x="500" y="220" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#5a5a5a">阅读进度条 · reveal 入场动画</text>
+  <text x="500" y="248" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#5a5a5a">技能筛选 · 作品搜索 · 灯箱轮播</text>
+  <text x="500" y="276" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#5a5a5a">各项目独立主题色（卡片 + 灯箱一致）</text>
+  <rect x="120" y="368" width="800" height="120" stroke="#141414" stroke-width="1.5" fill="#fff"/>
+  <text x="140" y="400" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="600" fill="#141414">设计目标</text>
+  <text x="140" y="428" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#5a5a5a">黑白线稿风 + 纸飞机意象，在保持专业感的同时传递「探索 / 投递 / 飞行」的叙事</text>
+  <text x="140" y="456" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#5a5a5a">桌面端精细指针交互 · prefers-reduced-motion 自动降级</text>
+</svg>
